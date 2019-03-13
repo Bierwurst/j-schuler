@@ -15,6 +15,8 @@ You are free to chose the programming language and framework of your choice (exc
 
 ##Roman numerals specifications
 
+https://www.knowtheromans.co.uk/Categories/SubCatagories/RomanNumerals/
+
 Introduction
 Roman numerals are represented by seven different letters: I, V, X, L, C, D and M. Which represent the numbers 1, 5, 10, 50, 100, 500 and 1,000. These seven letters are used to make thousands of numbers. For example, the Roman numeral for two is written as 'II', just two one's added together. The numeral twelve is written as, XII, which is simply X + II. If we take this a step further; the number twenty-seven is written as XXVII, which when broken down looks like XX + V + II.
 
@@ -28,4 +30,10 @@ The Roman numeral for three is written as ‘III’, however, the numeral for fo
   ⋅ I can be placed before V (5) and X (10) to make 4 and 9.
   ⋅ X can be placed before L (50) and C (100) to make 40 and 90.
   ⋅ C can be placed before D (500) and M (1000) to make 400 and 900.
+
+so the numerals cn be written in  an array as:
+let romanNums = ["M", "CM", "D", "CD, ""C", "LC", "L", "LX", "X", "XI", "V", "VI", "I"];
+let decimals = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+
+
 The number 1994 is a great example of these rules. It is represented by the Roman numerals MCMXCIV. If we break it down then; M = 1,000, CM = 900, XC = 90 and IV = 4.
