@@ -40,4 +40,4 @@ The Roman numeral for three is written as ‘III’, however, the numeral for fo
 `let romanNums = ["M", "CM", "D", "CD, ""C", "LC", "L", "LX", "X", "XI", "V", "VI", "I"];`
 `let decimals = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];`
 
-With the two array with all possible roman characters and their counterparts, I check if the decimal number in the array is smaller than the number I am looking for, if that is true, I reduce the number by the decimal push the roman character into the reslut array
+With the two array with all possible roman characters and their counterparts, I check if the decimal number in the array is smaller than the number I am looking for, if that is true, I reduce the number by the decimal and push the roman character into the result array
