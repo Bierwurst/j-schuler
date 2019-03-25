@@ -1,5 +1,5 @@
 body {
-	background-color: #f4b642;
+	background-color: #201dd4;
 }
 
 form {
@@ -31,4 +31,5 @@ body {
 
 .bigText {
 	font-size: 1.5rem;
+	color: #ffe925
 }
